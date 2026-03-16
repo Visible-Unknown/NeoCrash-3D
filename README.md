@@ -265,6 +265,7 @@ neocrash3d.exe
 NeoCrash3D/
 ├── brick_breaker_3d.cpp   ← complete game — single self-contained C++ file (~1,900 lines)
 └── README.md              ← this file
+└── NeoCrash-3D.exe        ← exe file to play without env setup
 ```
 
 No engine. No framework. No extra libraries. Just **OpenGL + FreeGLUT + pure C++**.
