@@ -32,16 +32,16 @@ These were the features our teacher specified for the assignment:
 
 | # | Requirement | Status |
 |---|---|---|
-| 1 | A **3D cube-shaped arena boundary** as the play area | ✅ Done |
-| 2 | A **ball** that moves and bounces inside the 3D arena | ✅ Done |
-| 3 | **Wall collision** — ball reflects correctly off all 6 faces of the cube | ✅ Done |
-| 4 | A **movable paddle / plate** the player controls to hit the ball | ✅ Done |
-| 5 | **Brick layers** arranged as flat XY planes (parallel to the back wall) inside the arena | ✅ Done |
-| 6 | **Brick collision detection** — ball detects and destroys individual bricks | ✅ Done |
-| 7 | **Arrow key controls** to move the paddle | ✅ Done |
-| 8 | A **HUD** showing score and remaining lives | ✅ Done |
-| 9 | **Lighting and shading** using OpenGL's fixed-function pipeline | ✅ Done |
-| 10 | **Perspective projection** for realistic 3D depth perception | ✅ Done |
+| 1 | A **3D cube-shaped arena boundary** as the play area | Done |
+| 2 | A **ball** that moves and bounces inside the 3D arena | Done |
+| 3 | **Wall collision** — ball reflects correctly off all 6 faces of the cube | Done |
+| 4 | A **movable paddle / plate** the player controls to hit the ball | Done |
+| 5 | **Brick layers** arranged as flat XY planes (parallel to the back wall) inside the arena | Done |
+| 6 | **Brick collision detection** — ball detects and destroys individual bricks | Done |
+| 7 | **Arrow key controls** to move the paddle | Done |
+| 8 | A **HUD** showing score and remaining lives | Done |
+| 9 | **Lighting and shading** using OpenGL's fixed-function pipeline | Done |
+| 10 | **Perspective projection** for realistic 3D depth perception | Done |
 
 ---
 
@@ -52,24 +52,24 @@ original task** — to make it more engaging, polished, and technically rich:
 
 | # | Extra Feature | Description |
 |---|---|---|
-| 1 | 🌐 **12 coloured brick layers** | All 12 layers are visible simultaneously through the transparent tunnel walls; active layer is bright, future layers are dimmed |
-| 2 | ↕️ **4-axis paddle movement** | Paddle moves on both **X and Y axes** (requirement was X-axis only), letting the player reposition freely in the full 2D plane |
-| 3 | 📍 **Trajectory prediction line** | Real-time forward ball simulation (3,000 steps) shows a rainbow dashed path and exactly where the ball will land |
-| 4 | 👻 **Ghost paddle guide** | Yellow rectangle outline on the paddle plane shows where to move to intercept the ball |
-| 5 | 🌈 **Rainbow ball trail** | HSV-cycling motion trail follows the ball; turns orange during Fireball mode |
-| 6 | ⭐ **Animated starfield** | 300 twinkling stars outside the tunnel drift toward the camera, adding depth and atmosphere |
-| 7 | 💥 **Shockwave rings** | Two expanding ring effects burst from the paddle face on every successful hit |
-| 8 | 🔦 **Screen colour flash** | Blue flash on wall bounce · Green flash on paddle hit · Red flash on life lost |
-| 9 | ✨ **Brick layer shimmer** | Active brick layer animates with a travelling light-wave shimmer effect |
-| 10 | 🫁 **Tunnel wall pulse** | All 4 glass side walls breathe rhythmically in opacity |
-| 11 | 🕶️ **4-wall shadow projection** | Planar shadows cast on **all 4 side walls** using a generic shadow matrix (requirement only needed basic rendering) |
-| 12 | 💊 **8 Power-up types** | WIDE, LIFE, SLOW, FAST, 2×SCORE, SHRINK, FIREBALL, SHIELD — each a spinning gem with floating label, danger warning, and landing marker |
-| 13 | 🔥 **Combo multiplier** | Breaking bricks within 2 seconds of each other chains a combo with ×1.25 score bonus per level |
-| 14 | 🏆 **High score + Rank** | Session high score persists across resets; end-screen shows C / B / A / S rank based on final score |
-| 15 | 🎆 **Particle burst system** | Colour-matched explosion particles with gravity on every brick destroyed |
-| 16 | 🔮 **Fireball power-up** | Ball pierces through 5 bricks without bouncing; not a standard brick-breaker mechanic |
-| 17 | 🛡️ **Shield power-up** | Automatically catches the ball once if missed; unique safety mechanic |
-| 18 | 🎨 **Paddle colour tinting** | Paddle changes colour to match the active power-up (green = wide, purple = shrink, etc.) |
+| 1 | **12 coloured brick layers** | All 12 layers are visible simultaneously through the transparent tunnel walls; active layer is bright, future layers are dimmed |
+| 2 | **4-axis paddle movement** | Paddle moves on both **X and Y axes** (requirement was X-axis only), letting the player reposition freely in the full 2D plane |
+| 3 | **Trajectory prediction line** | Real-time forward ball simulation (3,000 steps) shows a rainbow dashed path and exactly where the ball will land |
+| 4 | **Ghost paddle guide** | Yellow rectangle outline on the paddle plane shows where to move to intercept the ball |
+| 5 | **Rainbow ball trail** | HSV-cycling motion trail follows the ball; turns orange during Fireball mode |
+| 6 | **Animated starfield** | 300 twinkling stars outside the tunnel drift toward the camera, adding depth and atmosphere |
+| 7 | **Shockwave rings** | Two expanding ring effects burst from the paddle face on every successful hit |
+| 8 | **Screen colour flash** | Blue flash on wall bounce · Green flash on paddle hit · Red flash on life lost |
+| 9 | **Brick layer shimmer** | Active brick layer animates with a travelling light-wave shimmer effect |
+| 10 |**Tunnel wall pulse** | All 4 glass side walls breathe rhythmically in opacity |
+| 11 |**4-wall shadow projection** | Planar shadows cast on **all 4 side walls** using a generic shadow matrix (requirement only needed basic rendering) |
+| 12 | **8 Power-up types** | WIDE, LIFE, SLOW, FAST, 2×SCORE, SHRINK, FIREBALL, SHIELD — each a spinning gem with floating label, danger warning, and landing marker |
+| 13 | **Combo multiplier** | Breaking bricks within 2 seconds of each other chains a combo with ×1.25 score bonus per level |
+| 14 | **High score + Rank** | Session high score persists across resets; end-screen shows C / B / A / S rank based on final score |
+| 15 | **Particle burst system** | Colour-matched explosion particles with gravity on every brick destroyed |
+| 16 | **Fireball power-up** | Ball pierces through 5 bricks without bouncing; not a standard brick-breaker mechanic |
+| 17 | **Shield power-up** | Automatically catches the ball once if missed; unique safety mechanic |
+| 18 | **Paddle colour tinting** | Paddle changes colour to match the active power-up (green = wide, purple = shrink, etc.) |
 
 ---
 
@@ -87,26 +87,26 @@ original task** — to make it more engaging, polished, and technically rich:
 
 | Effect | Description |
 |---|---|
-| ⭐ Starfield | 300 twinkling stars drift toward camera with parallax |
-| 🌈 Rainbow trail | HSV colour-cycling glow trail behind the ball |
-| 💥 Shockwave rings | Two expanding rings on every paddle hit |
-| 🔦 Screen flash | Colour-coded flashes for each event type |
-| ✨ Brick shimmer | Moving light wave on the active brick layer |
-| 🫁 Tunnel pulse | Walls breathe in and out rhythmically |
-| 🌫️ Depth fog | Linear fog for tunnel atmosphere |
-| 🎆 Particles | Colour-matched explosion with gravity and fade |
-| 🕶️ 4-wall shadows | Planar projections on left, right, top, and bottom walls |
+| Starfield | 300 twinkling stars drift toward camera with parallax |
+| Rainbow trail | HSV colour-cycling glow trail behind the ball |
+| Shockwave rings | Two expanding rings on every paddle hit |
+| Screen flash | Colour-coded flashes for each event type |
+| Brick shimmer | Moving light wave on the active brick layer |
+| Tunnel pulse | Walls breathe in and out rhythmically |
+| Depth fog | Linear fog for tunnel atmosphere |
+| Particles | Colour-matched explosion with gravity and fade |
+| 4-wall shadows | Planar projections on left, right, top, and bottom walls |
 
 ### ⚡ Gameplay Systems
 
 | System | Description |
 |---|---|
-| 🔥 Combo multiplier | Chain breaks within 2 s for ×1.25 bonus per level |
-| 🏆 High score | Best score persists across resets |
-| 🥇 End-game rank | C / B / A / S based on final score |
-| 📍 Trajectory line | Rainbow dashed prediction path |
-| 👻 Ghost paddle | Outline shows optimal paddle position |
-| 🔄 Layer progression | Clear a layer to unlock the next |
+| Combo multiplier | Chain breaks within 2 s for ×1.25 bonus per level |
+| High score | Best score persists across resets |
+| End-game rank | C / B / A / S based on final score |
+| Trajectory line | Rainbow dashed prediction path |
+| Ghost paddle | Outline shows optimal paddle position |
+| Layer progression | Clear a layer to unlock the next |
 
 ---
 
@@ -210,9 +210,9 @@ neocrash3d.exe
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │  SCORE: 1240 [x2]      ★ ★ ★       LAYER: 3 / 12           │
-│  BEST:  3800                                                  │
+│  BEST:  3800                                                 │
 │                                               ● (layer 1)    │  ← layer
-│              COMBO  x4 !                     ● (layer 2)    │     progress
+│              COMBO  x4 !                     ● (layer 2)     │     progress
 │              FIREBALL!  x3                   ◉ (layer 3) ←  │     dots
 │                                               ○ (layer 4)    │
 │  ██████████  WIDE PADDLE                     ○ ...           │  ← power-up
@@ -296,9 +296,9 @@ This project covers the following topics from **CSE 494**:
 
 ## 👥 Team
 
-| Name | Student ID |
+| Name | Registration No. |
 |---|---|
-| @alamin | *2020331057* |
+| AL AMIN HOSSAIN | *2020331057* |
 | *---* | *---* |
 
 **Course:** Computer Graphics Lab — **CSE 494**
